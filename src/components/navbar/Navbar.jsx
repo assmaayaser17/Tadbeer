@@ -15,7 +15,7 @@ function Navbar() {
               <div className="bg-yellow-500 w-8 h-8 rounded-md flex items-center justify-center">
                 <span className="text-black font-bold">T</span>
               </div>
-              <span className="text-xl font-bold text-gray-900">تدبير</span>
+              <span className="text-xl font-bold text-gray-900">تدبير <strong className="text-yellow-500" >Tadbeer</strong></span>
             </div>
 
             {/* Desktop Links */}
@@ -61,7 +61,7 @@ function Navbar() {
                 تسجيل الدخول
               </button>
 
-              <button className="bg-yellow-500 hover:bg-yellow-400 hover:shadow-black text-gray-700 px-4 py-2 rounded-md font-medium transition-all  duration-800">
+              <button className="bg-[#d19f48] hover:bg-[#E69500] text-gray-800 px-4 py-2 rounded-md font-medium transition-all  duration-800">
                 <i className="fa-solid fa-user-plus ml-1.5" />
                 إنشاء حساب
               </button>
