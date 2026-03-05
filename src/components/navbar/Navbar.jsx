@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="bg-white shadow-sm">
+      <nav className="bg-white shadow-sm fixed top-0 left-0 w-full">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             {/* Logo - يمين */}
@@ -36,12 +36,12 @@ function Navbar() {
               </li>
 
               <li>
-                <Link
-                  to="/services"
+                <a
+                  href="#services"
                   className="hover:text-yellow-500 cursor-pointer"
                 >
                   الخدمات
-                </Link>
+                </a>
               </li>
 
               <li>
