@@ -4,7 +4,7 @@ import { Zap, CircleCheckBig, UserCheck } from "lucide-react";
 function ServicesSection() {
   return (
     <>
-      <section id="services" dir="rtl" className="py-32 bg-gray-50">
+      <section id="services" dir="rtl" className="pt-32 pb-16 bg-gray-50">
         <div className="container mx-auto px-6">
           {/* العنوان */}
           <div className="text-center mb-16">
