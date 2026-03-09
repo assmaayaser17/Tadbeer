@@ -27,12 +27,12 @@ function Navbar() {
               </li>
 
               <li>
-                  <a
+                  <Link
                   href="#about"
                   className="hover:text-yellow-500 cursor-pointer"
                 >
                   عن المنصة
-                </a>
+                </Link>
               </li>
 
               <li>
